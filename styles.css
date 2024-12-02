@@ -1,1 +1,89 @@
+.wholepage{
+    background-color:white;
+}
 
+/* Quote section*/
+.mainQuote{
+    display: flex;
+    flex-direction: row;
+    align-content:space-between ;
+    margin-top: 5rem;
+    align-items:flex-end;
+    width:100%;
+}
+/* Words */
+.quote{
+    height: 684.89px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width: 810px;
+    gap: 2rem;
+    margin-left: 40px;
+    justify-content: center;
+}
+.quoteFirst{
+    font-size: 45px;
+    min-width: 810px;
+}
+.quoteSecond{
+    color: gray;
+    font-size: 30px;
+}
+.employee{
+    display:flex;
+    height: 45%;
+}
+
+/*Reasons Section */
+.reasons{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:white;
+    width:100%;
+}
+/* Our Advantages*/
+h1{
+    display: flex;
+    font-size: 50px;
+    justify-content:center;
+    align-items:center;
+    color:black;
+}
+
+.advantage-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    width:100%;
+}
+
+.advantage{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+    height:200px;
+    gap:1rem;
+}
+.icon {
+    display: flex;
+    width:80px;
+    height:auto;
+  }
+/*Labels*/
+h3 {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/*Labels Description*/
+  p {
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
