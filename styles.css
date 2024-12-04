@@ -13,7 +13,7 @@
 }
 /* Words */
 .quote{
-    height: 684.89px;
+    height: 600px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -64,7 +64,7 @@ h1{
     flex-direction:column;
     align-items:center;
     justify-content:space-between;
-    height:200px;
+    height:400px;
     gap:1rem;
 }
 .icon {
@@ -74,16 +74,36 @@ h1{
   }
 /*Labels*/
 h3 {
-    font-size: 2rem;
+    font-size: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 /*Labels Description*/
   p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
+  /*Best Sellers*/
+  .best-sellers{
+    display:flex;
+    width:100%;
+    height:1000px;
+    justify-content:center;
+    background-image:url(assets/best-sellers/best-sellers1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap:2rem;
+  }
+
+  h2{
+    display: flex;
+    font-size: 50px;
+    justify-content:center;
+    align-items:center;
+    color:black;
+}
