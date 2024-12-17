@@ -1,0 +1,391 @@
+/* General Styles */
+.wholepage {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(assets/header/Frame\ 4.png);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 200px;
+}
+
+.order-now {
+    background-color: #284d33;
+    color: white;
+    width:fit-content;
+    font-size:50px;
+    border-radius:5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.order-now:hover {
+    background-color: white;
+    color:#284d33;
+}
+
+/* Banner Section */
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f5f1eb;
+    gap: 2rem;
+}
+@media screen and (max-width:767px){
+    .banner{
+        flex-direction:column;
+    }
+    .text-section h5{
+        font-size:50px
+    }
+    .text-section h1{
+        font-size:50px;
+    }
+}
+
+.text-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-section h5, 
+.text-section h1 {
+    color: #284d33;
+    line-height: 1.4;
+}
+
+.text-section h5 {
+    font-size: 80px;
+    font-weight: normal;
+}
+
+.text-section h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.text-section .directions {
+    background-color: #284d33;
+    font-size: 70px;
+    width: fit-content;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.text-section .directions:hover {
+    background-color: white;
+    color: #3e784f;
+}
+
+.image-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-pic {
+    width: 100%;
+    height: 100%;
+}
+
+/* Our Story Section */
+.ourStory {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+    background-color: #f5f1eb;
+}
+
+.story {
+    text-align: center;
+    max-width: 100%;
+}
+
+@media screen and (max-width:767px){
+    .ourStory{
+        justify-content: center;
+        flex-direction:column;
+    }
+    .story h1{
+        font-size:20px;
+    }
+    .story p{
+        font-size:10px;
+    }
+    .story-container{
+        width:min-content;
+    }
+}
+
+.story h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #284d33;
+}
+
+.story p {
+    font-size: 36px;
+    line-height: 1.6;
+    color: #3e784f;
+}
+
+.story-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 80%;
+}
+
+.story-column1, 
+.story-column2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.story-pic {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Quote Section */
+.mainQuote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f5f1eb;
+}
+
+.quote {
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.quoteFirst {
+    font-size: 45px;
+    color: #284d33;
+}
+
+.quoteSecond {
+    color: #3e784f;
+    font-size: 30px;
+}
+
+.employee {
+    display: flex;
+    height: 45%;
+}
+
+/* Reasons Section */
+.reasons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f1eb;
+    width: 100%;
+    gap: 2rem;
+}
+
+.advantage-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.advantage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    gap: 1rem;
+}
+
+.ph.ph-coffee-bean{
+    font-size: 5rem;
+    color:rgb(129, 62, 62);
+}
+
+.ph.ph-coffee{
+    font-size:5rem;
+    color:rgb(129, 62, 62);
+}
+
+.ph.ph-cheers{
+    font-size:5rem;
+    color:rgb(129, 62, 62);
+}
+
+.ph.ph-cow{
+    font-size:5rem;
+    color:rgb(129, 62, 62);
+}
+h1 {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #284d33;
+}
+
+h3 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #284d33;
+}
+
+p {
+    font-size: 2rem;
+    text-align: center;
+    color: #3e784f;
+}
+
+/* Best Sellers Section */
+.best-sellers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1800px;
+    justify-content: center;
+    background-color:#f5f1eb;
+    gap: 2rem;
+}
+
+.sellers-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.seller {
+    display: flex;
+    flex-direction: column;
+    width:max-content;
+}
+
+h2{
+    font-size:50px;
+    color:#284d33;
+}
+h4 {
+    font-size: 50px;
+    color: #284d33;
+}
+
+
+c{
+    font-size:40px;
+    color:black;
+}
+
+/* Locations Section */
+.locations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f5f1eb;
+}
+
+.left, .right {
+    border-style: solid;
+    border-color: #284d33;
+}
+
+.bottomLoc a {
+    display: flex;
+    background-color: #284d33;
+    color: white;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-decoration: none;
+    border-style: solid;
+}
+
+.bottomLoc a:hover {
+    background-color: white;
+    color: #284d33;
+}
+
+/* Footer Section */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-style: solid;
+}
+.shop{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.shop a {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.shop a:hover {
+    color: #284d33;
+}
+
+.social a {
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: #284d33;
+}
+.visit{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
